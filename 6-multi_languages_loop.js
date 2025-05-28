@@ -6,5 +6,12 @@ const messages = [
   "JavaScript is amazing"
 ];
 
-console.log(messages.join("\n"));
+let result = "";
+
+for (let i = 0; i < messages.length; i++) {
+  result += messages[i] + "\n";
+}
+
+console.log(result);
+
 
