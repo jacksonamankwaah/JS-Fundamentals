@@ -8,10 +8,10 @@ const messages = [
 
 let result = "";
 
-for (let i = 0; i < messages.length; i++) {
+for (let i = 0; i < messages.length - 1; i++) {
   result += messages[i] + "\n";
 }
 
+result += messages[messages.length - 1];
+
 console.log(result);
-
-
